@@ -2,7 +2,26 @@
 
 A gnome-shell-theme inspired by the anime [Banana Fish](https://anilist.co/anime/100388/BANANA-FISH/).
 
-## After making changes to the scss files, compile as follows - 
+![screenshot1](screenshots/overview1.png)
+![screenshot2](screenshots/overview2.png)
+
+## Installation
+
+- Make directories `Adwaita-bananafish/gnome-shell/` in `~/.themes`
+
+```bash
+mkdir -p ~/.themes/Adwaita-bananafish/gnome-shell
+```
+
+- Copy `gnome-shell/gnome-shell.css` to `~/.themes/Adwaita-bananafish/gnome-shell/`
+
+```bash
+cp gnome-shell/gnome-shell.css ~/.themes/Adwaita-bananafish/gnome-shell/
+```
+
+- Select the shell theme from **gnome-tweaks** application.
+
+## Tweaking: After making changes to the scss files, compile as follows - 
 
 - *Followed directory structure of [Nordic](https://github.com/EliverLara/Nordic/tree/master/gnome-shell)*
 - Use `gulp` to compile, in a similar way as [this, follow steps 1-4 except 3](https://medium.com/@jhinter/setting-up-gulp-to-compile-scss-in-less-than-5-minutes-fee8bea2b68b)
